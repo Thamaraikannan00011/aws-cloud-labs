@@ -148,7 +148,11 @@ You should receive an email like this:
 
 ## 🎨 Customize Email Format
 
-***Replace the default code with formatted one:*** 
+1. ***Remove destination***
+
+![destination-removed](images/removed-destination.png)
+
+2. ***Replace the default code with formatted one:*** 
 [Lambda function that format the SNS email](lambda/lambda_function.py)
 
 ![formatted Email](images/clean-email.png)
