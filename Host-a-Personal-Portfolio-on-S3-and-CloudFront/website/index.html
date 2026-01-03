@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thamaraikannan S | DevOps & Cloud Engineer</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header" id="top">
+    <div class="logo">TK<span>DevOps</span></div>
+    <nav class="nav">
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" aria-label="Toggle theme">
+        <span class="sun">☀</span>
+        <span class="moon">🌙</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="section hero">
+      <div class="hero-content reveal-up">
+        <p class="tagline">DevOps • Cloud • Automation</p>
+        <h1>Hi, I'm <span class="accent">Thamaraikannan</span></h1>
+        <p class="typed">
+          I design resilient CI/CD pipelines, automate AWS infrastructure, and ship reliable systems.
+        </p>
+        <p class="hero-sub">
+          DevOps &amp; Cloud Engineer · Dharmapuri, Tamil Nadu
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">View DevOps Projects</a>
+          <a href="https://github.com/thamaraikannan00011" class="btn ghost" target="_blank">GitHub</a>
+          <a href="https://www.linkedin.com/in/thamaraikannan00011" class="btn ghost" target="_blank">LinkedIn</a>
+        </div>
+        <div class="hero-status">
+          <span class="dot"></span>
+          <span>Open to DevOps / Cloud roles</span>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal-up">
+        <div class="orbital">
+          <div class="orbit orbit-1">CI/CD</div>
+          <div class="orbit orbit-2">AWS</div>
+          <div class="orbit orbit-3">Docker</div>
+          <div class="orbit orbit-4">K8s</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head reveal-up">
+        <h2>DevOps Skillset</h2>
+        <p>Tools and platforms used to automate delivery pipelines, cloud infrastructure, and monitoring.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="card reveal-right">
+          <h3>Cloud &amp; Infrastructure</h3>
+          <ul>
+            <li>AWS: EC2, S3, VPC, IAM, Lambda, SNS, SQS, EBS, RDS, DynamoDB, Load Balancer, CloudWatch</li>
+            <li>VPC design with public/private subnets and security groups</li>
+            <li>Auto Scaling and NGINX based highly available web hosting</li>
+          </ul>
+        </article>
+
+        <article class="card reveal-left">
+          <h3>CI/CD &amp; Automation</h3>
+          <ul>
+            <li>Jenkins pipelines with pre/post build stages and master–agent setup</li>
+            <li>Git &amp; GitHub for version control and webhooks</li>
+            <li>Maven build automation, artifact generation, and reporting</li>
+          </ul>
+        </article>
+
+        <article class="card reveal-right">
+          <h3>Containers &amp; IaC</h3>
+          <ul>
+            <li>Docker &amp; Docker Compose multi-container environments</li>
+            <li>Kubernetes for container orchestration (learning & practice)</li>
+            <li>Terraform for infrastructure-as-code on AWS</li>
+          </ul>
+        </article>
+
+        <article class="card reveal-left">
+          <h3>Languages &amp; Monitoring</h3>
+          <ul>
+            <li>Java (Spring Boot APIs) &amp; Shell scripting</li>
+            <li>Bash-based Linux monitoring dashboards with ANSI visuals</li>
+            <li>CloudWatch metrics, alarms, and logs for observability</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head reveal-up">
+        <h2>DevOps Projects</h2>
+        <p>Real-world style implementations that showcase CI/CD, automation, and production-ready infrastructure.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card reveal-up">
+          <div class="badge">AWS</div>
+          <h3>Load Balanced Web Hosting</h3>
+          <p>
+            Highly available static website hosted on EC2 with NGINX behind an Application Load Balancer and Auto Scaling
+            Groups for zero-downtime traffic distribution.
+          </p>
+          <ul class="project-tags">
+            <li>EC2</li><li>NGINX</li><li>ASG</li><li>ALB</li><li>Linux</li>
+          </ul>
+        </article>
+
+        <article class="project-card reveal-up">
+          <div class="badge">Serverless</div>
+          <h3>File Upload Notification System</h3>
+          <p>
+            Event-driven pipeline where S3 uploads trigger Lambda functions and SNS topics to process files and send
+            instant notifications with least-privilege IAM roles.
+          </p>
+          <ul class="project-tags">
+            <li>S3</li><li>Lambda</li><li>SNS</li><li>IAM</li>
+          </ul>
+        </article>
+
+        <article class="project-card reveal-up">
+          <div class="badge">SRE</div>
+          <h3>System Information Dashboard</h3>
+          <p>
+            Real-time Linux monitoring dashboard in Bash with color-coded progress bars for CPU, memory, disk, and system
+            metrics refreshing every 10 seconds.
+          </p>
+          <ul class="project-tags">
+            <li>Bash</li><li>Linux</li><li>Monitoring</li>
+          </ul>
+        </article>
+
+        <article class="project-card reveal-up">
+          <div class="badge">CI/CD</div>
+          <h3>Jenkins Pipeline Automation</h3>
+          <p>
+            Multiple Jenkins pipelines with Maven builds, automated tests, master–agent configuration, and build
+            notifications to streamline CI/CD workflows.
+          </p>
+          <ul class="project-tags">
+            <li>Jenkins</li><li>Maven</li><li>Git</li>
+          </ul>
+        </article>
+
+        <article class="project-card reveal-up">
+          <div class="badge">Containers</div>
+          <h3>Containerized PetClinic</h3>
+          <p>
+            Spring Boot PetClinic application containerized with Docker and Docker Compose using a dedicated MySQL
+            container for local development.
+          </p>
+          <ul class="project-tags">
+            <li>Docker</li><li>Compose</li><li>Spring Boot</li><li>MySQL</li>
+          </ul>
+        </article>
+
+        <article class="project-card reveal-up">
+          <div class="badge">Backend</div>
+          <h3>Event Management API</h3>
+          <p>
+            RESTful backend for managing events, attendees, and venues with PostgreSQL, validation, and error handling,
+            exposed through clean APIs.
+          </p>
+          <ul class="project-tags">
+            <li>Java</li><li>Spring Boot</li><li>PostgreSQL</li>
+          </ul>
+          <div class="project-links">
+            <a href="https://github.com/thamaraikannan00011/Event-Management" target="_blank">Source Code</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section">
+      <div class="section-head reveal-up">
+        <h2>Certifications</h2>
+        <p>DevOps-focused training that strengthened my foundations in automation and cloud platforms.</p>
+      </div>
+
+      <div class="cert-grid">
+        <article class="card reveal-right">
+          <h3>DevOps Professional Course</h3>
+          <p>JSpiders Java/JavaScript Full Stack Training &amp; Development Center, 2025.</p>
+          <p>
+            Covered Linux, AWS, Docker, Kubernetes, Jenkins, Maven, SQL and web technologies with hands-on,
+            project-based learning.
+          </p>
+          <a
+            href="assets/images/THAMARAIKANNAN S JSpiders certificate.png"
+            class="cert-link"
+            target="_blank"
+          >
+            View Certificate
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="section-head reveal-up">
+        <h2>Contact</h2>
+        <p>Ready to discuss DevOps roles, cloud projects, or collaboration opportunities.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form class="contact-form reveal-right">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" placeholder="How can we work together?" required></textarea>
+          </div>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+
+        <div class="contact-info reveal-left">
+          <h3>Reach me directly</h3>
+          <p>Email: <a href="mailto:thamaraikannansrinivasan@gmail.com">thamaraikannansrinivasan@gmail.com</a></p>
+          <p>Phone: +91 93854 78459</p>
+          <p>Location: Dharmapuri, Tamil Nadu, India</p>
+          <div class="contact-links">
+            <a href="https://github.com/thamaraikannan00011" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/thamaraikannan00011" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a href="#top" class="scroll-top" aria-label="Scroll to top">↑</a>
+
+  <script src="script.js"></script>
+</body>
+</html>

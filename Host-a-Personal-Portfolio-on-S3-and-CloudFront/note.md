@@ -94,3 +94,11 @@ These components together give you a secure, low‑latency static site, even wit
 ### Result
 
 ![output](images/output.png)
+
+``` 
+If access denied while accessing website edit the Default root object to "*" or "index.html" 
+``` 
+
+
+> 💡 If you still see `AccessDenied`, try opening `https://dxxxxxxxxxxxx.cloudfront.net/index.html`. 
+> If that works but the root URL does not, double‑check that the default root object is exactly `index.html` (same spelling as in the bucket).
